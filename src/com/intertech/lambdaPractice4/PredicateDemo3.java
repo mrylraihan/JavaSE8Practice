@@ -10,28 +10,16 @@ public class PredicateDemo3 {
 
 	
 	public static void main(String[] args) {
-		Predicate<String> predicate3 = (String t) ->{
-			if(t == "Wallie") {
-				return true;
-			}else {
-				return false;
-			}
 		
-		};
-		
-	boolean test1 = predicate3.test("Wallie");
-	boolean test2 = predicate3.test("Amy");
-	System.out.println(test1);
-	System.out.println(test2);
+	List<String> list = Arrays.asList("A","AA","AAA","B","BB","BBB");
 	
-	List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10,11);
+	Predicate<String> lengthIs3 = x-> x.length() == 3;
 	
-	Predicate<Integer> predicate = (x)-> x > 5;
+	Predicate<String> startsWithA = x-> x.startsWith("A");
 	
-	Predicate<Integer> predicate1 = (x)-> x < 11;
+	List<String> collect = list.stream().filter(lengthIs3.or(startsWithA)).collect(Collectors.toList());
 	
-	list.stream().filter(predicate.and(predicate1)).collect(Collectors.toList()).forEach(System.out::println);
-	
+	System.out.println(collect);
 	}
 	
 	
