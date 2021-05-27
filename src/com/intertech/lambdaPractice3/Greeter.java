@@ -15,6 +15,10 @@ public class Greeter {
 		
 		Greeting lambdaGreet = () -> System.out.println("Hello World");
 		
+		OpenComputer computer = ()->System.out.println("Turn on Computer");
+		
+		
+		
 		
 		Greeting innerClass = new Greeting() {
 			
@@ -34,6 +38,10 @@ public class Greeter {
 		greeter.greet(innerClass);
 		
 		greeter.byes(()-> System.out.println("Bye bye"));
+		
+		computer.turnOn();
+		
+		
 		
 	}
 
