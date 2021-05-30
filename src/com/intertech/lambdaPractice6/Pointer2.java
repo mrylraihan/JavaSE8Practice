@@ -13,7 +13,7 @@ public class Pointer2 extends PromotionService implements Predicate<Customer>{
 		if(a) {
 			System.out.println("sign up for our mailing");
 		}else
-			System.out.println("your'e too young");
+			System.out.println("you're too young");
 	}
 	public static void main(String[] args) {
 		
