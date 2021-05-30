@@ -3,6 +3,16 @@ package com.acme.domain;
 import com.acme.utils.MyDate;
 
 public class Order {
+	//Lambda Lab
+	private static Rushable rushable;
+	
+	public static Rushable getRushable() {
+		return rushable;
+	}
+
+	public static void setRushable(Rushable rushable) {
+		Order.rushable = rushable;
+	}
 
 	// instance variables
 	MyDate orderDate;
@@ -73,5 +83,12 @@ public class Order {
 			total = total + computeTax();
 		}
 		return total;
+	}
+	
+	public boolean isPriorityOrder() {
+		boolean priorityOrder = false;
+		if(rushable !=null) {
+			priorityOrder = rushable.isRunnable(orderDate, orderAmount);
+		}return priorityOrder;
 	}
 }
