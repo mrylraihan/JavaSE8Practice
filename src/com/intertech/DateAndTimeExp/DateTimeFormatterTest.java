@@ -1,4 +1,4 @@
-package DateAndTimePractice;
+package com.intertech.DateAndTimeExp;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package com.pratice.dynamicMethodDispatching;
+package com.intertech.dynamicMethodDispatching;
 
 public class Main {
 

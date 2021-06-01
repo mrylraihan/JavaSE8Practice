@@ -1,4 +1,4 @@
-package com.pratice.dynamicMethodDispatching;
+package com.intertech.dynamicMethodDispatching;
 
 public class Employee extends Person{
 	String title = "developer";
