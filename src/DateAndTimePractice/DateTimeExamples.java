@@ -57,7 +57,8 @@ public class DateTimeExamples {
 		
 //		Periods comparison methods 
 		System.out.println(Period.between(hireDate,now));
-		
+		Period periods = Period.of(10, 1, 10);
+		p(periods);
 		
 		
 	}
