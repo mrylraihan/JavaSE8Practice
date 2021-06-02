@@ -5,6 +5,8 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
 import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class DateTimeExamples {
 	public static void p(Object o) {
@@ -15,6 +17,8 @@ public class DateTimeExamples {
 //		LocalDate Practice
 		LocalDate now = LocalDate.now();
 		p(now);
+		DateTimeFormatter formattingDate = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+		p(now.format(formattingDate));
 		
 		LocalDate hireDate = LocalDate.of(2020, Month.JULY, 14);
 		p(hireDate);
@@ -30,6 +34,8 @@ public class DateTimeExamples {
 //		LocalTime Practice		
 		LocalTime now1 = LocalTime.now();
 		p(now1);
+		DateTimeFormatter formattingTime = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT);
+		p(now1.format(formattingTime));
 		
 //		LocalTime timeHired = LocalTime.of(12, 34, 55);
 //		p(timeHired);
