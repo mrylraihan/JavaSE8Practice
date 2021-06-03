@@ -12,6 +12,18 @@ public class Pointer2 {
 			}
 		}
 	}
+	public static void print3DArray(int[][]... a) {
+		for (int[][] str : a) {
+			for (int[] str2 : str) {
+				if(!(str2 == null)) {
+					for (int str3 : str2) {
+						System.out.println(str3);
+					}	
+				}
+
+			}
+		}
+	}
 
 	public static void main(String[] args) {
 		String[][] array = new String[3][2];
@@ -38,9 +50,21 @@ public class Pointer2 {
 
 		print3DArray(array3D);
 		
-		System.out.println("array len= "+ array.length);
-		System.out.println("array[0] len= " + array[0].length);
-
+		System.out.println("array3D len= "+ array3D.length);
+		System.out.println("array3D[0] len= " + array3D[0].length);
+		System.out.println("array3D[1] len= " + array3D[0][0].length);
+		
+		int[][][] moreStuff = new int[3][3][];
+		moreStuff[0][2] = new int[2]; // Line A
+		moreStuff[0][2][0] = 0;
+		moreStuff[0][2][1] = 1;
+		moreStuff[0][0]= new int[3];
+		moreStuff[0][0][0] = 2;
+		moreStuff[0][0][1] = 3;
+		moreStuff[0][0][2] = 4;
+		moreStuff[0][1] = new int[1];
+		moreStuff[0][1][0] = 5;
+		print3DArray(moreStuff);
 	}
 
 }
