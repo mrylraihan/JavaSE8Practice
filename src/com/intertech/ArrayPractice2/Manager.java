@@ -4,6 +4,6 @@ public class Manager extends Employee {
 	public String department;
 
 	public String toString() {
-		return super.toString() + "Manages: " + department;
+		return super.toString() + " Manages: " + department;
 	}
 }

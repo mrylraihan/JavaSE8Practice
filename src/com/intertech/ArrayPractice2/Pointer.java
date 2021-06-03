@@ -31,7 +31,7 @@ public class Pointer {
 //		}
 	//for each loop for iterating through an array	
 		for (Employee employee: staff) {
-			System.out.println(employee.name);
+			System.out.println(employee.toString());
 		}
 	}
 	 
