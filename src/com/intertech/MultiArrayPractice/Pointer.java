@@ -3,6 +3,14 @@ package com.intertech.MultiArrayPractice;
 import java.util.Iterator;
 
 public class Pointer {
+	public static void print2DArrayAgain(int[][] a) {
+		for (int[] j : a) {
+				for (int k : j) {
+				System.out.println(k);
+				}
+				
+		}
+	}
 	
 	public static void print2DArray(int[][] a) {
 		int i = 0;

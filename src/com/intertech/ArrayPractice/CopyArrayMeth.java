@@ -36,6 +36,9 @@ public class CopyArrayMeth {
 		MyDate[] moreDates = { new MyDate(10, 26, 1999),  new MyDate(10, 26, 1999),  new MyDate(10, 26, 1999)};
 		
 		String [] names = {"Wallie", "Mike", "Ryan"};
+		
+		
+		
 	}
 
 }
