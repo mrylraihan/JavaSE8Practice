@@ -32,6 +32,15 @@ public class Pointer {
 		
 		String[] letters5 = Arrays.copyOfRange(letters4, 0, 3);
 		System.out.println(Arrays.toString(letters5));
+		
+		for(int i = 0; i<letters5.length;i++) {
+			
+			System.out.println(letters5[i]);
+		}
+		
+		String name = "Wallie";
+		System.out.println(name.length());
+		System.out.println(letters5.length);
 	}
 
 }

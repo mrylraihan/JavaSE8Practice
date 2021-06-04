@@ -1,4 +1,4 @@
-package com.intertech.MultiArrayPractice;
+package com.intertech.Array3DPractice;
 
 import java.util.Iterator;
 

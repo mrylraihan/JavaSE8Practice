@@ -1,4 +1,4 @@
-package com.intertech.MultiArrayPractice;
+package com.intertech.Array3DPractice;
 
 public class Pointer2 {
 
@@ -65,6 +65,7 @@ public class Pointer2 {
 		moreStuff[0][1] = new int[1];
 		moreStuff[0][1][0] = 5;
 		print3DArray(moreStuff);
+		
 	}
 
 }
