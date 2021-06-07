@@ -10,6 +10,9 @@ public class ArrayPart1 {
 //	
 //	//multiple arrays in one line
 //	char[] charArray1, charArray2;
+		 
+//	This wont work due to placement
+// char chaArrayThree[], charOne;
 
 		// how to instantiate an array
 
