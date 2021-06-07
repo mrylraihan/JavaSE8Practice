@@ -36,9 +36,11 @@ public class Pointer {
 		printNums(1,2,3,4,5);
 		
 		char[] letters2 = {'a','e','c','w'};
+		System.out.println(Arrays.toString(letters2));
 		Arrays.sort(letters2);
-		int eLocation = Arrays.binarySearch(letters2, 'b');
-		System.out.println(eLocation);
-		
+		System.out.println(Arrays.toString(letters2));
+//		int eLocation = Arrays.binarySearch(letters2, 'b');
+//		System.out.println(eLocation);
+//		
 	}
 }
