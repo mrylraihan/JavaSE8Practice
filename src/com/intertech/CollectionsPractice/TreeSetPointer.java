@@ -11,11 +11,11 @@ public class TreeSetPointer {
 		tree.add(100);
 		tree.add(77);
 		tree.add(34);
-		//Tree set Automatically sorts the elements
+		// Tree set Automatically sorts the elements
 		System.out.println(tree);
-		
+
 		Iterator iter = tree.iterator();
-		while(iter.hasNext()) {
+		while (iter.hasNext()) {
 			System.out.println(iter.next());
 		}
 	}
