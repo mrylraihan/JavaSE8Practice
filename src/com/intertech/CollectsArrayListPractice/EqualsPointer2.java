@@ -1,4 +1,4 @@
-package com.intertech.ArrayListPractice1;
+package com.intertech.CollectsArrayListPractice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,7 +24,7 @@ public class EqualsPointer2 {
 			System.out.println(iter.next());
 		}
 		System.out.println("--------------------> Iterator");
-		ArrayList languages = new ArrayList();
+		ArrayList<String> languages = new ArrayList<String>();
 		languages.add("Java");
 		languages.add("JavaScript");
 		languages.add("Html");
@@ -39,6 +39,10 @@ public class EqualsPointer2 {
 		ListIterator iL2 = languages.listIterator();
 		System.out.println(iL2.hasNext());
 		System.out.println(iL2.nextIndex());
+		
+		System.out.println("------------------------> forloop with lambda function");
+		languages.forEach(lang-> System.out.println(lang));
+		
 
 	}
 }

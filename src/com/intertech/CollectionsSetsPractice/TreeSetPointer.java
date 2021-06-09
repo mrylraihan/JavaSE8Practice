@@ -1,4 +1,4 @@
-package com.intertech.CollectionsPractice;
+package com.intertech.CollectionsSetsPractice;
 
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -11,6 +11,7 @@ public class TreeSetPointer {
 		tree.add(100);
 		tree.add(77);
 		tree.add(34);
+		tree.add(100);
 		// Tree set Automatically sorts the elements
 		System.out.println(tree);
 

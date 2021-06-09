@@ -1,4 +1,4 @@
-package com.intertech.CollectionsPractice;
+package com.intertech.CollectionsSetsPractice;
 
 import java.util.HashSet;
 import java.util.Iterator;

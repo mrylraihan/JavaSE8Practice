@@ -1,4 +1,4 @@
-package com.intertech.ArrayListPractice1;
+package com.intertech.CollectsArrayListPractice;
 
 import java.util.ArrayList;
 import java.util.Collection;

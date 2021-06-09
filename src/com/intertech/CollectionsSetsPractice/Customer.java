@@ -1,4 +1,4 @@
-package com.intertech.CollectionsPractice;
+package com.intertech.CollectionsSetsPractice;
 
 public class Customer {
 	private String state;

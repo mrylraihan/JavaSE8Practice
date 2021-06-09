@@ -1,4 +1,4 @@
-package com.intertech.CollectionsPractice;
+package com.intertech.CollectionsSetsPractice;
 
 import java.util.HashSet;
 
@@ -23,13 +23,15 @@ public class HashSetPointer {
 		Customer customer2 = new Customer("New York", "Mike");
 		
 		
-		HashSet salesRegion = new HashSet();
+		HashSet<String> salesRegion = new HashSet<String>();
 		//add all valid sale regions
 		salesRegion.add("Minnesota");
 		salesRegion.add("New York");
 		salesRegion.add("New Jersey");
 		salesRegion.add("Maryland");
 		salesRegion.add("Minnesota");
+		salesRegion.add("New York");//because it is a duplicate it will be silently ignored
+		System.out.println(salesRegion);
 		//Check to see if customer is in your region 
 		String state = customer.getState();
 		if(salesRegion.contains(state)) {
