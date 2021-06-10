@@ -3,7 +3,7 @@ package com.intertech.CollectionsMapsPractice;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Pointer2 {
+public class HashMPointer2 {
 	public static void main(String[] args) {
 		HashMap<String, Long> contacts = new HashMap<String, Long>();
 		contacts.put("Hisham", 9176751559L);

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Pointer {
+public class HashMPointer {
 	public static void main(String[] args) {
 		HashMap<String, Integer> hMaps = new HashMap<String, Integer>();
 		hMaps.put("a", 1);

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Pointer3 {
+public class HashMPointer3 {
 	public static void main(String[] args) {
 		Map<String, MyDateEx> map = new HashMap();
 		MyDateEx birthday = new MyDateEx(1, 01, 1991);
