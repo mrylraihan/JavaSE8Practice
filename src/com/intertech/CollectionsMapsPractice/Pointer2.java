@@ -20,5 +20,15 @@ public class Pointer2 {
 			Long num = contactNums.getValue();
 			System.out.println(key+"-"+num);
 		}
+		System.out.println(contacts.get("Hisham"));
+		//how to just get the values of your map
+		System.out.println(contacts.values());
+		//how to get the keys of your map    
+		System.out.println(contacts.keySet());
+		Map contacts2 = new HashMap();
+		contacts2.putAll(contacts);
+		
+		System.out.println("Contacts2"+contacts2);
+		 
 	}
 }

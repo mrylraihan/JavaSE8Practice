@@ -22,14 +22,14 @@ public class MyDate {
 
 	// Methods
 	public String toString() {
-		return month + "/" + day + "/" + year;
+		return getMonth() + "/" + getDay() + "/" + getYear();
 	}
 
 	public void setDate(int m, int d, int y) {
 		if (valid(d, m, y)) {
-			day = (byte) d;
-			year = (short) y;
-			month = (byte) m;
+			setDay((byte) d);
+			setYear((short) y);
+			setMonth((byte) m);
 		}
 	}
 
@@ -45,7 +45,7 @@ public class MyDate {
 	}
 
 	public void setDay(int day) {
-		if (valid(day, month, year)) {
+		if (valid(day, getMonth(), getYear())) {
 			this.day = (byte) day;
 		}
 	}
@@ -55,7 +55,7 @@ public class MyDate {
 	}
 
 	public void setMonth(int month) {
-		if (valid(day, month, year)) {
+		if (valid(getDay(), month, getYear())) {
 			this.month = (byte) month;
 		}
 	}
@@ -65,7 +65,7 @@ public class MyDate {
 	}
 
 	public void setYear(int year) {
-		if (valid(day, month, year)) {
+		if (valid(getDay(), getMonth(), year)) {
 			this.year = (short) year;
 		}
 	}
@@ -73,8 +73,8 @@ public class MyDate {
 		boolean result = false;
 		if(o instanceof MyDate) {
 			MyDate temp = (MyDate) o;
-			result = (temp.day == day)&&
-					(temp.month == month)&&(temp.year==year);
+			result = (temp.getDay() == getDay())&&
+					(temp.getMonth() == getMonth())&&(temp.getYear()==getYear());
 		}
 		return result;
 	}
@@ -94,6 +94,18 @@ public class MyDate {
 			return day <= 28 || (day == 29 && year % 4 == 0);
 		}
 		return true;
+	}
+
+	public void setDay(byte day) {
+		this.day = day;
+	}
+
+	public void setYear(short year) {
+		this.year = year;
+	}
+
+	public void setMonth(byte month) {
+		this.month = month;
 	}
 }
 
