@@ -18,6 +18,15 @@ public class Pointer2 {
 		list.set(0, "A");
 		System.out.println(list);
 		
+		ArrayList<String> listNames = new ArrayList<>();
+		listNames.add("Barry Allen");
+		listNames .add("Wally West");
+		listNames.add("Jay Garrick");
+		Collections.sort(listNames);
+		int a = Collections.binarySearch(listNames, "Wally West");
+		System.out.println(listNames);
+		System.out.println(a);
+		
 	}
 
 }

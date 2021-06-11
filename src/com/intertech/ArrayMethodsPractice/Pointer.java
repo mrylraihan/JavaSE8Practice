@@ -13,9 +13,12 @@ public class Pointer {
 		System.out.println("Modified letters[] :"+ Arrays.toString(letters));
 		int wLocation = Arrays.binarySearch(letters, 'e');
 		System.out.println(wLocation);
-		
+		 
 		char[] letters2 = {'a','b','c','w'};
 		int eLocation = Arrays.binarySearch(letters2, 'e');
+		System.out.println("----------------------------->");
+		Arrays.sort(letters2);
+		System.out.println(letters);
 		System.out.println(eLocation);
 		
 		Arrays.fill(letters2, 'z');
