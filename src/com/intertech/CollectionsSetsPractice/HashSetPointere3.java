@@ -25,10 +25,10 @@ public class HashSetPointere3 {
 		h.add("g");
 		h.add("h");
 		h.add("l");
-		h.add("l");
+		h.add("l");// adding duplicate elements
 		h.add("w");
 		h.add("c");
-		h.add("v"); // adding duplicate elements
+		h.add("v"); 
 		System.out.println(h);
 		// or use iterator
 				Iterator<Integer> i = numList.iterator();
