@@ -23,5 +23,6 @@ public class Pointer {
 		//Anonymouse Array
 		List<MyDateEx> dates4 = Arrays.asList( 
 			    new MyDateEx[]{ new MyDateEx(2,1,2020), new MyDateEx(3,10,1980) } ); // LEGAL
+		
 	}
 }
