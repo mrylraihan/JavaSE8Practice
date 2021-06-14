@@ -26,6 +26,11 @@ public class Pointer2 {
 		int a = Collections.binarySearch(listNames, "Wally West");
 		System.out.println(listNames);
 		System.out.println(a);
+		System.out.println(listNames);
+		Collections.reverse(listNames);
+		System.out.println(listNames);
+		Collections.shuffle(listNames);
+		System.out.println(listNames);
 		
 	}
 

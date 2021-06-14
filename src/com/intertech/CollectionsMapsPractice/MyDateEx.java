@@ -2,7 +2,7 @@ package com.intertech.CollectionsMapsPractice;
 
 import com.acme.utils.MyDate;
 
-	public class MyDateEx {
+	public class MyDateEx implements Comparable{
 
 		// Member/instance variables (a.k.a.fields/properties/attributes)
 		private byte day;
@@ -13,6 +13,7 @@ import com.acme.utils.MyDate;
 		// 1. Same name as the class
 		// 2. No return type
 		// The no-args constructor
+	
 		public MyDateEx() {
 			this(1, 1, 1900);
 		}
@@ -96,6 +97,21 @@ import com.acme.utils.MyDate;
 				return day <= 28 || (day == 29 && year % 4 == 0);
 			}
 			return true;
+		}
+
+		@Override
+		public int compareTo(Object o) {
+			MyDateEx d = (MyDateEx) o;
+			if (year !=d.year) {
+				return year -d.year;
+			}
+			if (month != d.month) {
+				return month -d.month;
+			}
+			if (day != d.day) {
+				return day - d.day;
+			}
+			return 0;
 		}
 	}
 
