@@ -20,7 +20,7 @@ public class Pointer1 {
 			System.out.println("Hey - your string's not that big! so we added some more Characters or is null");
 
 		}finally {
-			System.out.println("we are in teh finally block");
+			System.out.println("we are in the finally block");
 		}
 		
 		//Another example of Exception handling
