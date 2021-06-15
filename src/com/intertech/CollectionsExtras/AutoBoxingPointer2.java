@@ -14,7 +14,7 @@ public class AutoBoxingPointer2 {
 		primes.add(6);//with Autoboxing
 		int j = primes.get(2);//with unboxing
 		int x = primes.get(1).intValue();//with Generics 
-		int y = ((Integer)primes.get(0)).intValue(); //without Generics
+		int y = ((Integer)primes.get(0)).intValue(); //without unboxing and Generics
 		System.out.println(x);
 		System.out.println(y);
 		
