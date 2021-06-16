@@ -21,6 +21,11 @@ public class Test {
 		userList.add(user3);
 		Collections.sort(userList);
 		userList.forEach(u -> System.out.println(u));
+		
+		System.out.println("----------------------->");
+		
+		Collections.sort(userList, new UserPassWComparator());
+		userList.forEach(up ->System.out.println(up.getPassword()));
 	}
 
 	public void test2() {
