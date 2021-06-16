@@ -64,7 +64,7 @@ public class Pointer {
 
 		Collections.sort(catList);
 		for (Cats cat : catList) {
-			System.out.println(cat);
+			System.out.println("Sorted by name "+cat);
 		}
 		System.out.println("--------->");
 		Comparator<Cats> listByAge = new Comparator<Cats>() {
@@ -82,9 +82,39 @@ public class Pointer {
 
 		Collections.sort(catList, listByAge);
 		for (Cats cat : catList) {
-			System.out.println(cat);
+			System.out.println("Sorted by Age" +cat);
 		}
 		System.out.println("--------->");
+		Collections.sort(catList,new Comparator<Cats>() {
 
+			@Override
+			public int compare(Cats o1, Cats o2) {
+				// TODO Auto-generated method stub
+				return o1.getColor().compareTo(o2.getColor());
+			}
+		});
+		catList.forEach(cc->System.out.println("Sorted by color "+cc.getColor()));
+		
+		System.out.println("--------->");
+		
+		List<Dogs> dogList = new ArrayList<>();
+		dogList.add(new Dogs("Imes", "Sheeba-inu", 7));
+		dogList.add(new Dogs("Spike", "Bitbull", 9));
+		dogList.add(new Dogs("Lady", "Shitzu", 10));
+		
+		Collections.sort(dogList);
+		for (Dogs dogs : dogList) {
+			System.out.println("Sorted by Breed "+ dogs.getBreed());
+		}
+		System.out.println("--------->");
+		Collections.sort(dogList, new Comparator<Dogs>() {
+
+			@Override
+			public int compare(Dogs o1, Dogs o2) {
+				
+				return o1.getName().compareTo(o2.getName());
+			}
+		});
+		dogList.forEach(dn->System.out.println("Sorted by name "+dn.getName()));
 	}
 }
