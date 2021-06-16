@@ -53,7 +53,9 @@ public class Pointer {
 		for (Laptop laptop : laps) {
 			System.out.println(laptop);
 		}
-
+		System.out.println("--------->");
+		
+		
 		List<Cats> catList = new ArrayList<>();
 		catList.add(new Cats("Fluffy", "White", 2));
 		catList.add(new Cats("Boots", "Oreo", 1));
@@ -64,7 +66,7 @@ public class Pointer {
 		for (Cats cat : catList) {
 			System.out.println(cat);
 		}
-
+		System.out.println("--------->");
 		Comparator<Cats> listByAge = new Comparator<Cats>() {
 
 			@Override

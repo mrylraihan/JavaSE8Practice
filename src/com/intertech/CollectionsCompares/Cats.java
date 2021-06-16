@@ -42,7 +42,7 @@ public class Cats implements Comparable<Cats>{
 
 	@Override
 	public int compareTo(Cats o) {
-		Cats c = (Cats) o;
+		Cats c = o;
 		return this.getName().compareTo(c.getName());
 			
 	}
