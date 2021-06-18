@@ -8,7 +8,7 @@ public class Pointer5 {
 			String a = null;
 //			int aa = a.charAt(0);
 			
-			System.out.println("in try block");
+			System.out.println(a);
 			
 		} catch (NullPointerException e) {
 			System.out.println("a is null");
