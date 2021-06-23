@@ -1,4 +1,4 @@
-package com.intertech.examples;
+package com.intertech.InheritancePrac;
 
 public class Son extends Father{
 	public static void sayHello() {

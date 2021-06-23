@@ -1,4 +1,4 @@
-package com.intertech.examples;
+package com.intertech.InheritancePrac;
 
 public class Musician extends Person{
 	

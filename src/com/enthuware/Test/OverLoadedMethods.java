@@ -19,6 +19,9 @@ public class OverLoadedMethods{
 		return a;
 	}
 	
+	public Object setVat(Object a) {
+		return a;
+	}
 	
 	
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.something.elses;
 
-import com.intertech.examples.Person;
+import com.intertech.InheritancePrac.Person;
 
 public class EmployeeTester {
 	public static void main(String[] args) {

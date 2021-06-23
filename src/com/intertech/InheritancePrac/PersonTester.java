@@ -1,4 +1,4 @@
-package com.intertech.examples;
+package com.intertech.InheritancePrac;
 
 public class PersonTester {
 	public static void main(String[] args) {

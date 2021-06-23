@@ -1,7 +1,7 @@
 package com.something.elses;
 
-import com.intertech.examples.Musician;
-import com.intertech.examples.Person;
+import com.intertech.InheritancePrac.Musician;
+import com.intertech.InheritancePrac.Person;
 
 public class Employee extends Person {
 

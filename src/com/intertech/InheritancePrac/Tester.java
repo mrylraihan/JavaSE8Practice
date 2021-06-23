@@ -1,4 +1,4 @@
-package com.intertech.examples;
+package com.intertech.InheritancePrac;
 
 import java.time.LocalDate;
 
