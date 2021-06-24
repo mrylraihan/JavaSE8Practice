@@ -1,7 +1,7 @@
 package com.intertech.StringBufBuildPractice;
 
 //StringBuffer and StringBuilder both are used for String mutability 
-public class Pointer {
+public class StringbufBuild {
 
 	public static void main(String[] args) {
 		StringBuffer sb = new StringBuffer(5);
