@@ -18,6 +18,12 @@ public class StringbufBuild {
 		int r = sbb.indexOf("r",4);
 		sbb.replace(r,++r, "W");
 		System.out.println(sbb);
+		
+		StringBuilder sbs = new StringBuilder("StringBuilder");
+		System.out.println(sbs);
+		
+		StringBuffer sbf = new StringBuffer("StringBuffer");
+		System.out.println(sbf);
 	}
 
 }
