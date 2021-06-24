@@ -1,7 +1,7 @@
 package com.enthuware.Test;
 
 public class ExceptionPractice {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception  {
 		ExceptionPractice tc = new ExceptionPractice();
 		tc.myMethod();
 		
@@ -12,7 +12,7 @@ public class ExceptionPractice {
 		
 	}
 
-	public void yourMethod() throws Exception{
+	public void yourMethod() throws Exception {
 		throw new Exception();
 	}
 }
