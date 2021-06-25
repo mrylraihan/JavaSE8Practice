@@ -1,6 +1,8 @@
 package com.intertech.StringBufBuildPractice;
 
 //StringBuffer and StringBuilder both are used for String mutability 
+//StringBuffer is thread safe 
+//String builder is not
 public class StringbufBuild {
 
 	public static void main(String[] args) {
