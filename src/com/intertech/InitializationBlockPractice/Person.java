@@ -1,6 +1,7 @@
 package com.intertech.InitializationBlockPractice;
 
 public class Person {
+	
 	{
 		personCount = 10;
 	}
