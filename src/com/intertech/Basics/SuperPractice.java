@@ -13,6 +13,8 @@ public class SuperPractice extends Parent{
 	 
 	
 	public static void main(String[] args) {
+		//Reference type , reference variable = new keyword , Object type
+		
 		SuperPractice sp = new SuperPractice();
 		System.out.println("-------->");
 		Parent p = new SuperPractice();

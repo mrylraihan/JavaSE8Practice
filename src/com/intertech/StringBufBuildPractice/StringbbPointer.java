@@ -20,16 +20,19 @@ public class StringbbPointer {
 			name1 += string;
 		}
 		System.out.println(name);
-<<<<<<< HEAD
+
+		
+		
 		System.out.println(name);
 		
 		
 		
 	
-=======
+
 		System.out.println(name1);
 
->>>>>>> 5ea8b2583c8fe01181af49a97d09d86ec42e8fd8
+
 	}
 }
 
+// testing my push request
