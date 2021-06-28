@@ -22,7 +22,7 @@ public class StringbbPointer {
 			name1 += string;
 		}
 		System.out.println(name);
-		System.out.println(name1);
+		System.out.println(name);
 		
 		
 		
