@@ -6,6 +6,7 @@ public class Car {
 	String type;
 	int serialNumber;
 	static int carCount;
+	
 
 	{
 		color = "red";
@@ -44,6 +45,12 @@ public class Car {
 		myCar.customize("blue", "convertabile");
 		Car herCar = new Car();
 		herCar.customize("yellow", "Bettle");
+		Car myCar1 = new Car();
+		System.out.println(myCar1.getDescription());
+		System.out.println(Car.carCount);
+		System.out.println(myCar.carCount);//not recommended because carCount is a class 
+		//variable meaning its a static variable
+		
 
 		// MyDate myDate;
 		// System.out.println(myCar.getDescription());

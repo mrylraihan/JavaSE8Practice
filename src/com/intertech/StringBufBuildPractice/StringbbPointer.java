@@ -1,7 +1,5 @@
 package com.intertech.StringBufBuildPractice;
 
-import java.util.Arrays;
-
 public class StringbbPointer {
 	public static void main(String[] args) {
 		String str = "Wallie";
@@ -13,19 +11,25 @@ public class StringbbPointer {
 		sb.append("Wallie");
 		System.out.println(sbf.equals(sb));
 		System.out.println(str.equals(sb));
-		String[] strArr = {"W","A","Y","E","L"};
+		String[] strArr = { "W", "A", "Y", "E", "L" };
 		StringBuilder name = new StringBuilder();
 		String name1 = "";
-		
-		for ( String string : strArr) {
+
+		for (String string : strArr) {
 			name.append(string);
 			name1 += string;
 		}
 		System.out.println(name);
+<<<<<<< HEAD
 		System.out.println(name);
 		
 		
 		
 	
+=======
+		System.out.println(name1);
+
+>>>>>>> 5ea8b2583c8fe01181af49a97d09d86ec42e8fd8
 	}
 }
+
