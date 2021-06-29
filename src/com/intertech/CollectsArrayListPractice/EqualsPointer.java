@@ -16,6 +16,8 @@ public class EqualsPointer {
 		System.out.println(list1);
 		System.out.println(list2);
 		System.out.println(list1.equals(list2));
+		
+		
 	}
 
 }
