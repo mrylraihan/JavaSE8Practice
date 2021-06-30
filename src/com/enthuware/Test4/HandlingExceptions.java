@@ -3,6 +3,8 @@ package com.enthuware.Test4;
 import java.io.*;
 
 public class HandlingExceptions {
+	
+	String[] arguments;
 	public float parseFloat(String s){
 		   float f = 0.0f;
 		   try{
@@ -15,7 +17,6 @@ public class HandlingExceptions {
 		      return f;
 		   }
 		   finally { System.out.println("finally");  }
-		   //return f ;
 		}
 	public static void main(String[] args) {
 		System.out.println(new HandlingExceptions().main);

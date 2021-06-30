@@ -24,6 +24,7 @@ public class EqualsPointer2 {
 			System.out.println(iter.next());
 		}
 		System.out.println("--------------------> Iterator");
+		
 		ArrayList<String> languages = new ArrayList<String>();
 		languages.add("Java");
 		languages.add("JavaScript");
