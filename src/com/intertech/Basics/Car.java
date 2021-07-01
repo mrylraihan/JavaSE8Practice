@@ -17,6 +17,12 @@ public class Car {
 		//Constructors dont have a return type
 		System.out.println("this is a "+color +" "+ type);
 	}
+	@Override
+	public String toString() {
+		return "Car [color=" + color + ", type=" + type + "]";
+	}
+	
+	
 	
 
 }
