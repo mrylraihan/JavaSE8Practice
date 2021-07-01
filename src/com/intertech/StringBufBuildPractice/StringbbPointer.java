@@ -25,6 +25,7 @@ public class StringbbPointer {
 		
 		System.out.println(name);
 		
+		name.delete(0, name.length());// how to delete and clear your contents in your string builder
 		
 		
 	

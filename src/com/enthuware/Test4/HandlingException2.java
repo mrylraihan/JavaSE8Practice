@@ -14,6 +14,12 @@ class Base {
 public class HandlingException2 extends Base{
 		void method1() {
 			someMethod("args");
+			System.out.println(someMethod("Pew pew pew pew pew"));
+		}
+		public static void main(String[] args) {
+			HandlingException2 he = new HandlingException2();
+			he.method1();
+			System.out.println(he.someMethod("Hello"));
 		}
 		
 }

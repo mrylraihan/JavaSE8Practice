@@ -17,9 +17,7 @@ public class HandlingExceptions {
 		      return f;
 		   }
 		   finally { System.out.println("finally");  }
+		
 		}
-	public static void main(String[] args) {
-		System.out.println(new HandlingExceptions().main);
-	}
-	int main;
+	
 }
