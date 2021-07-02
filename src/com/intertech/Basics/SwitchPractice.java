@@ -4,11 +4,13 @@ public class SwitchPractice {
 //following datatypes supported by switch statements
 //int, Integer, byte, Byte, short, Short, char, Character, String, enum values, var
 	
-//following data types not supported by switch statments 
+//following data types not supported by switch statements 
 //Boolean, boolean, double, Double, Long, long, float, Float
-
+// in the cases they need to be compile time constants or literal values 
+	// an example of a compile time constant is a final variable
+	
 	public static void main(String[] args) {
-
+		
 		int j = 3;
 		String str = null;
 
