@@ -45,8 +45,8 @@ public class BitwiseOperatorPractice2 {
 	public static void main(String[] args) {
 		BitwiseOperatorPractice2 bt = new BitwiseOperatorPractice2();
 		bt.boolA();
-		bt.boolB();
-		bt.ternaryOp();
+//		bt.boolB();
+//		bt.ternaryOp();
 	}
 
 }
