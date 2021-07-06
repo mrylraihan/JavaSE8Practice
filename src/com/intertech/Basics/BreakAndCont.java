@@ -16,6 +16,18 @@ public class BreakAndCont {
 			}
 			System.out.println("i: "+i);
 		}
+		
+		stuff:// your label can be anything you just need to make sure that your label has an break label that reachable
+			while(true) {
+				int z = 0;
+				while(true) {
+					if (z >=10) {
+						break stuff;// breaking the loop with your break label
+					}else {
+						System.out.println("outlabel: " + z++);
+					}
+				}
+			}
 	}
 
 }
