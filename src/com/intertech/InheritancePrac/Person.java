@@ -2,12 +2,12 @@ package com.intertech.InheritancePrac;
 
 public class Person {
 	
-	 void sayHI() {
+	 public void sayHI() {
 		System.out.println("HI im a Person");
 	}
 	
 	public static void sayHello(String firstName, int age) {
-
+	
 	}
   
 	public static void sayHello(String name) {
@@ -15,12 +15,13 @@ public class Person {
 	}
 
 	protected void doSomething() {
-		System.out.println("do something");
+		System.out.println("do something in person");
 	}
 
 	public static void main(String[] args) {
 		Person p = new Person();
 		p.doSomething();
+		p.sayHI();
 
 	}
 

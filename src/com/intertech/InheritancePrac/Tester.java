@@ -1,7 +1,5 @@
 package com.intertech.InheritancePrac;
 
-import java.time.LocalDate;
-
 public class Tester{
 	
 	public static String firstName = "Jason";
