@@ -1,12 +1,14 @@
 package com.intertech.InheritancePrac2;
 
-import com.acme.utils.MyDate;
+
 
 public class Person {
 	private String firstName;
 	private String lastName;
 	private String address;
 	private MyDate dob;
+	String fullName = "fullname";
+	static String fulllastName = "static variable in Person";
 	
 	public String getFullName() {
 		return firstName + " " + lastName;
