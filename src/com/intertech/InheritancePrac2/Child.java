@@ -1,9 +1,17 @@
 package com.intertech.InheritancePrac2;
 
-public class Child {
-	public static void main(String[] args) {
-		int a[] = {1,2,3};
-		System.out.println(a instanceof Object);
-		
+import com.acme.utils.MyDate;
+
+public class Child extends Person{
+
+	public Child() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
+
+	public Child(String firstName, String lastName, String address, MyDate dob) {
+		super(firstName, lastName, address, dob);
+		// TODO Auto-generated constructor stub
+	}
+	
 }
