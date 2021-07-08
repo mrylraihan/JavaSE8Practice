@@ -1,6 +1,8 @@
 package com.intertech.InheritancePrac;
 
 public class Son extends Father{
+//	String father = "Father in son"; it will use the parents instance variable for father 
+	String son = "Son";
 	public static void sayHello() {
 		System.out.println("STATIC: HEllo from Son");
 	}

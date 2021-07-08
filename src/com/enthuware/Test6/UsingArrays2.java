@@ -1,7 +1,5 @@
 package com.enthuware.Test6;
 
-import java.util.Iterator;
-
 public class UsingArrays2 {
 	public static void main(String[] args) {
 		int size = 10;
@@ -17,7 +15,7 @@ public class UsingArrays2 {
 				str = "222";
 			System.out.println(str);
 			System.out.println(bA[0]);
-			
+			System.out.println("----------------->");
 			int count = 0, sum = 0;
 			do{
 			       if(count % 3 == 0) continue;

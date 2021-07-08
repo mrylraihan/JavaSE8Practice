@@ -39,5 +39,9 @@ public class ConstructorsP {
 		System.out.println(Boolean.TRUE);
 		System.out.println(by);
 		System.out.println(bi);
+		
+		if (8 == 81) {
+			
+		}
 	}
 }

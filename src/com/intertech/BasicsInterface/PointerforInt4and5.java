@@ -15,8 +15,8 @@ public class PointerforInt4and5 extends ParentPointer implements Interface6 {
 		pt.defaultM();
 		
 		
-		pp = pt;
-		pt = (PointerforInt4and5) pp;
+		pp = pt;// pt is the child class and this can be assigned to the parent 
+		pt = (PointerforInt4and5) pp;//pp is the parent class and cant be assigned to the child class without casting
 		
 		Interface6 it6 = new PointerforInt4and5();
 		Interface6.heythere();

@@ -26,6 +26,12 @@ public class StringbufBuild {
 		
 		StringBuffer sbf = new StringBuffer("StringBuffer");
 		System.out.println(sbf);
+		
+		StringBuilder words = new StringBuilder("Hello");
+		String word1 = new String("Hello");
+		String word2 = "Hello";
+		System.out.println(words.equals(word1));
+		System.out.println(word1.equals(word2));
 	}
 
 }

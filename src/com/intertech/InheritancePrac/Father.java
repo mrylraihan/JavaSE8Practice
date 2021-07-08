@@ -1,6 +1,7 @@
 package com.intertech.InheritancePrac;
 
  class Father { 
+	 String father = "father";
 	public static void sayHello() {
 		System.out.println("STATIC: Hello from Father");
 	}
