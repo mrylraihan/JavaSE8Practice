@@ -10,7 +10,16 @@ import java.time.format.FormatStyle;
 
 public class DateTimeExamples {
 	public static void p(Object o) {
-		System.out.println(o);
+		
+		if ( o instanceof LocalDate) {
+			System.out.println("LocalDate :"+ o);
+		}else if (o instanceof LocalTime) {
+			System.out.println("LocalTime :"+ o);
+		}else if (o instanceof LocalDateTime) {
+			System.out.println("LocalDateTime :"+ o);
+		}else {
+			System.out.println(o);
+		}
 	}
 
 	public static void main(String[] args) {
