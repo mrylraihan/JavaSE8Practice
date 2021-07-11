@@ -4,6 +4,7 @@ public class Pointer6 {
 	public static void main(String[] args) {
 		boolean b = true | false;
 		boolean c = true||false;
+		System.out.println(b);
 		System.out.println(c);
 	}
 }

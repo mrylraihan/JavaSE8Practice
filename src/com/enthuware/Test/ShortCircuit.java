@@ -10,10 +10,10 @@ public class ShortCircuit{
 	      boolean bool1 = true ;
 	      boolean bool2 = false;
 	      boolean bool  = false;
-	      bool = ( bool2 &  method1(i++) ); //Increase
-	      bool = ( bool2 && method1(i++) ); //2
-	      bool = ( bool1 |  method1(i++) ); //
-	      bool = ( bool1 || method1(i++) ); //4
+	      bool = ( bool2 &  method1(i++) ); //increase by 1 because it checks both
+	      bool = ( bool2 && method1(i++) ); //doesnt because it shortCircuits the evaluation
+	      bool = ( bool1 |  method1(i++) ); //increase again by 1 because it checks both
+	      bool = ( bool1 || method1(i++) ); //doesnt because it shortCircuits the evaluation
 	      System.out.println(i);
 	}
 

@@ -10,5 +10,8 @@ public class Sample implements IInt {
 		int j = s.theValue;
 		int k = IInt.theValue;
 		int l = theValue;
+		System.out.println(j);
+		System.out.println(k);
+		System.out.println(l);
 	}
 }
