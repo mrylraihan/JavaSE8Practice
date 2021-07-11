@@ -19,6 +19,7 @@ public class JavaIdentifiers {
 		String Public = null; // Valid
 //		String 1980_s = "ewew"; //invalid due to variable names cant be numbers 
 		String _Q2_ = "Q2"; // Valid
+
 		
 		System.out.println(_helloWorld);
 		System.out.println(Public);
