@@ -6,8 +6,7 @@ public class Pangram1 {
 		boolean answer = true;
 		int index = 0;
 		boolean[] mark = new boolean[26];
-		a = a.replace(" ", "");
-		a = a.toLowerCase();
+		a = a.replace(" ", "").toLowerCase();
 		for (int i = 0; i < a.length(); i++) {
 			char cur = a.charAt(i);
 

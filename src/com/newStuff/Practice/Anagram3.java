@@ -6,12 +6,9 @@ public class Anagram3 {
 
 	public boolean annagram (String a, String b) {
 		boolean answer;
-		a = a.trim();
-		b = b.trim();
-		a = a.replace(" ", "");
-		b = b.replace(" ", "");
-		a = a.toLowerCase();
-		b = b.toLowerCase();
+		a = a.replace(" ", "").toLowerCase();
+		b = b.replace(" ", "").toLowerCase();
+		
 		char[] charlist1 = a.toCharArray();
 		char[] charlist2 = b.toCharArray();
 		
