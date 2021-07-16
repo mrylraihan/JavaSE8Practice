@@ -41,9 +41,7 @@ public class Question5 {
 	}
 
 	public static void main(String[] args) {
-//				Scanner sc = new Scanner(System.in);
-//				System.out.println("Please enter a list of numbers and k to swap");
-//				String userInput = sc.next();
+//				 
 		String one = "1,2,3,4,5,6,7,8,9,10;2";
 		String two = "1,2,3,4,5,6,7,8,9;3";
 		System.out.println(new Question5().randomNumber(one));
