@@ -21,24 +21,14 @@ public class Question6 {
 	    	
 	    	int convert1 = Integer.parseInt(num1);
 	    	int convert2 = Integer.parseInt(num2);
-//	    	System.out.println(convert1);
-//	    	System.out.println(convert2);
+
 	    	sumED= convert1 + convert2 + "";
 	    	System.out.println(sumED);
 	    	String[] newResult = sumED.split("");
-	    	for (int i = newResult.length-1; 0<=i ; i--) {
-				char tmp = sumED.charAt(i);
-					
+	    	for (int i = newResult.length-1; 0<=i ; i--) {	
 				result.add(Integer.parseInt(newResult[i]));
 			}
-	    	System.out.println(result.toString());
-//	    	for(int i = answer.length()-1 ;0<=i ; --i) {
-////	    		result.add(answer.charAt(i));
-//	    	}
-//	    	System.out.println(sumED);
-//	    	
-	    	
-	    	
+	    	System.out.println(result.toString());	    	
 	    	
 	    }
 //	Input: l1 = [2,4,3], l2 = [5,6,4]
