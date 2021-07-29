@@ -1,8 +1,6 @@
 package com.newStuff.Practice;
 
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Question6 {
 //	class Solution {
