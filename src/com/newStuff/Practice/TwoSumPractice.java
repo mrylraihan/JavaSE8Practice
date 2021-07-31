@@ -3,7 +3,7 @@ package com.newStuff.Practice;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TestQuestion {
+public class TwoSumPractice {
 	
 	public boolean twoSum(int[] nums, int target) {
 		Set<Integer>set = new HashSet<>();
@@ -20,7 +20,7 @@ public class TestQuestion {
 		int [] numberList = {4,7,5,8};
 		int target = 10;
 		
-		boolean answer = new TestQuestion().twoSum(numberList, target);
+		boolean answer = new TwoSumPractice().twoSum(numberList, target);
 		System.out.println(answer);
 		
 	}
